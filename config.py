@@ -22,9 +22,6 @@ SEGMENTS = [
   # Show the current git branch and status
   'git',
 
-  # Show the last command's exit code if it was non-zero
-  'exit_code',
-
   # Show a padlock if the current user has no write access to the current
   # directory
   'read_only',
@@ -35,6 +32,9 @@ SEGMENTS = [
   # Shows a '#' if the current user is root, '$' otherwise
   # Also, changes color if the last command exited with a non-zero error code
   'root',
+
+  # Show the last command's exit code if it was non-zero
+  'exit_code',
 ]
 
 # Change the colors used to draw individual segments in your prompt
