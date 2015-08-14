@@ -12,9 +12,6 @@ SEGMENTS = [
   # Set the terminal window title to user@host:dir
   'set_term_title',
 
-  # Show the last command's exit code if it was non-zero
-  'exit_code',
-
   # Show a padlock when ssh-ing from another machine
   'ssh',
 
@@ -24,6 +21,9 @@ SEGMENTS = [
 
   # Show the current git branch and status
   'git',
+
+  # Show the last command's exit code if it was non-zero
+  'exit_code',
 
   # Show a padlock if the current user has no write access to the current
   # directory
