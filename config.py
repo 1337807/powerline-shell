@@ -8,6 +8,7 @@
 # prompt. Any segment you add must be present in the segments/ directory
 
 SEGMENTS = [
+  'ruby_version',
   # Set the terminal window title to user@host:dir
   'set_term_title',
 
@@ -34,7 +35,6 @@ SEGMENTS = [
   # Shows a '#' if the current user is root, '$' otherwise
   # Also, changes color if the last command exited with a non-zero error code
   'root',
-  'ruby_version',
 ]
 
 # Change the colors used to draw individual segments in your prompt
