@@ -8,6 +8,8 @@
 # prompt. Any segment you add must be present in the segments/ directory
 
 SEGMENTS = [
+  # Show current virtual environment (see http://www.virtualenv.org/)
+  'virtual_env',
   'ruby_version',
   # Set the terminal window title to user@host:dir
   'set_term_title',
