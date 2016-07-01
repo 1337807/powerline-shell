@@ -10,8 +10,8 @@
 SEGMENTS = [
   # 'ruby_version',
   # Show current virtual environment (see http://www.virtualenv.org/)
-  # 'virtual_env',
-  # 'ruby_version',
+  'virtual_env',
+  'ruby_version',
   # Set the terminal window title to user@host:dir
   'set_term_title',
 
@@ -20,10 +20,10 @@ SEGMENTS = [
 
   # Show the current directory. If the path is too long, the middle part is
   # replaced with ellipsis ('...')
-  # 'cwd',
+  'cwd',
 
   # Show the current git branch and status
-  # 'git',
+  'git',
 
   # Show a padlock if the current user has no write access to the current
   # directory
