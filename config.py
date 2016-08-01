@@ -8,6 +8,7 @@
 # prompt. Any segment you add must be present in the segments/ directory
 
 SEGMENTS = [
+  # 'ruby_version',
   # Show current virtual environment (see http://www.virtualenv.org/)
   'virtual_env',
   'ruby_version',
